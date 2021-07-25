@@ -4,7 +4,8 @@ import PyPDF2
 import pyttsx3
 
 win = tk.Tk()
-
+win.iconbitmap("Images/book_read_icon.ico")
+win.title("PDF Reader")
 win.geometry("750x600")
 
 text = tk.Text(win, width=80, height=35)
